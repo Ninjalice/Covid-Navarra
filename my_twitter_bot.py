@@ -43,7 +43,7 @@ while True:
         api.update_status("CASOS COVID EN NAVARRA:\n"+"Ultima actualización: " +
                           str(data["update"])+"\n"+"Casos confirmados: "+str(data["casos"]) + "\n" +
                           "Recuperados: "+str(data["recuperados"])+"\n"+"Fallecimientos: " +
-                          str(data["muertes"])+"\n"+"")
+                          str(data["muertes"])+"\n"+"\n"+"#KoronabirusaNafarroa ")
   
     except:
         print("Duplicated")

@@ -40,7 +40,7 @@ def covid():
 while True:
     data = covid() 
     try:
-        api.update_status("CASOS COVID EN NAVARRA/COVID kasuak Nafarroan:\n"+"Ultima actualización/Azken eguneratzea: " +
+        api.update_status("Casos Covid-19 en Navarra/Covid-19 kasuak Nafarroan:\n"+"Ultima actualización/Azken eguneratzea: " +
                           str(data["update"])+"\n"+"Casos/Kasuak: "+str(data["casos"]) + "\n" +
                           "Recuperados/Berreskuratuak: "+str(data["recuperados"])+"\n"+"Fallecimientos/Heriotzak: " +
                           str(data["muertes"])+"\n"+"\n"+"#KoronabirusaNafarroa ")

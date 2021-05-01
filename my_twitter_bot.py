@@ -2,18 +2,13 @@ import tweepy
 import time
 import requests
 import json
-
-
-CONSUMER_KEY = 'iHKU9ChL3wfdwn358aH6FZKOO'
-CONSUMER_SECRET = 'u3MzZXUq5mGZyeA04Gx3du4pR6H29k3ytjgsHDCigmOH85Crjg'
-ACCESS_KEY = '1322639867847868416-leXYNVPnHupLiDWzdFeGrWg4ibwEXn'
-ACCESS_SECRET = 'NfC5lcjmVjRKrZCh0dxlF8hxhHoaDJjc0dwq6PPlJr2ti'
+import os
 
 
 print('this is my twitter bot', flush=True)
 
-auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
-auth.set_access_token(ACCESS_KEY, ACCESS_SECRET)
+auth = tweepy.OAuthHandler(os.environ['CONSUMER_KEY'], os.environ['CONSUMER_SECRET'])
+auth.set_access_token(os.environ['ACCESS_KEY'], os.environ['ACCESS_SECRET'])
 api = tweepy.API(auth)
 
 user = api.me()

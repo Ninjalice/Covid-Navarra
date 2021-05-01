@@ -6,7 +6,7 @@
 
 Requirements: tweepy 
 
-It's quite simple but usefull :)<br\><br\><br\><br\>
+It's quite simple but usefull :)<br><br><br><br>
 
 
 

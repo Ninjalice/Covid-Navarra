@@ -8,7 +8,7 @@ Requirements: tweepy
 
 It's quite simple but usefull :)<br><br><br><br>
 
-![alt text](covid.png)
+![alt text](project_image.jpg)
 
 
 This project is currently down.
